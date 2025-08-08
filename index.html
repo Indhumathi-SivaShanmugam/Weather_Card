@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="card">
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="weather-info">
+            <h2 id="city-name"></h2>
+            <div class="main-info">
+                <img id="weather-icon" src="" alt="Weather icon">
+                <p id="temperature"></p>
+            </div>
+            <p id="weather-description"></p>
+            <div class="details">
+                <div class="col">
+                    <img src="https://openweathermap.org/img/wn/50d.png" alt="">
+                    <div class="info">
+                        <p id="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://openweathermap.org/img/wn/50d.png" alt="">
+                    <div class="info">
+                        <p id="wind-speed"></p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
