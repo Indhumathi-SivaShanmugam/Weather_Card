@@ -39,8 +39,8 @@ Follow these steps to get a copy of the project running on your local machine.
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone https://github.com/Indhumathi-SivaShanmugam/Weather_Card.git
+    cd Weather
     ```
 
 2.  **Get an API Key:**
